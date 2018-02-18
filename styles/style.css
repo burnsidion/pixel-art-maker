@@ -7,10 +7,10 @@ body {
 }
 
 .canvas {
-  width: 450px;
-  height: 450px;
+  width: 480px;
+  height: 480px;
   margin-bottom: 100px;
-  
+
 }
 
 .pixel {
@@ -31,11 +31,24 @@ body {
   background-color: green;
 }
 
+.blue{
+  background-color: blue;
+}
+
+.white{
+  background-color: white;
+}
+
 .palette-color{
   width: 70px;
   height: 70px;
   border-radius: 5px 20px 5px;
   margin: 10px;
   float: right;
+  border: solid;
 
+}
+
+.palette{
+  display: inline-block;
 }
