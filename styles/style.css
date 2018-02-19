@@ -2,18 +2,23 @@ body {
   background-image: url("http://ak2.picdn.net/shutterstock/videos/9848732/thumb/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  display: flex;
+
   justify-content: center;
   align-items: center;
+
+}
+
+.container{
+  display: flex;
+  margin-left: 400px;
+  margin-bottom: 30px;
+  margin-top: 40px;
 
 }
 
 .canvas {
   width: 480px;
   height: 480px;
-  margin-bottom: 200px;
-  margin-left: 400px;
 }
 
 .pixel {
@@ -57,19 +62,53 @@ body {
   border-radius: 5px 20px 5px;
   margin: 5px;
   border: solid;
+  display: inline-block
 
 }
 
 .palette{
   margin-left: 15px;
+  width: 200px;
 
 }
 
 h1{
   margin-left: 35px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Fredericka the Great', cursive;
+  color: rgb(161, 7, 28);
 }
 
 h3{
   font-family: 'Permanent Marker', cursive;
+  color: rgb(162, 8, 162);
+  font-size: 25px;
+
+}
+
+  @keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+ }
+
+
+.palette-color:hover{
+  animation: bounce 1s;
+  cursor: pointer;
+
+  }
+
+.canvas:hover{
+  cursor: pointer;
 }
