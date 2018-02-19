@@ -1,5 +1,7 @@
 body {
-  background: white;
+  background-image: url("https://image.freepik.com/free-photo/wood-background-texture_1421-587.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -10,7 +12,6 @@ body {
   width: 480px;
   height: 480px;
   margin-bottom: 100px;
-
 }
 
 .pixel {
@@ -35,20 +36,32 @@ body {
   background-color: blue;
 }
 
+.black{
+  background-color: black;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
 .white{
   background-color: white;
 }
+
 
 .palette-color{
   width: 70px;
   height: 70px;
   border-radius: 5px 20px 5px;
   margin: 10px;
-  float: right;
   border: solid;
-
 }
 
 .palette{
-  display: inline-block;
+  margin-left: 30px;
+
+}
+
+h1{
+  margin-left: 50px;
 }
